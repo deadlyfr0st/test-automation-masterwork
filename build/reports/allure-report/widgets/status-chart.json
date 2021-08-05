@@ -1,0 +1,141 @@
+[ {
+  "uid" : "ae7656adb723ba62",
+  "name" : "TC_06-Pagination",
+  "time" : {
+    "start" : 1628204253743,
+    "stop" : 1628204257672,
+    "duration" : 3929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeaa09adb78e7d37",
+  "name" : "[1] WikiTest-first, My first page.",
+  "time" : {
+    "start" : 1628204076324,
+    "stop" : 1628204080652,
+    "duration" : 4328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9477dd9c92d00e1",
+  "name" : "TC_05-List",
+  "time" : {
+    "start" : 1628204060902,
+    "stop" : 1628204063087,
+    "duration" : 2185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8000fd9b560645b",
+  "name" : "[3] WikiTest-third, My third page.",
+  "time" : {
+    "start" : 1628204083446,
+    "stop" : 1628204086199,
+    "duration" : 2753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "384c16c2c77b253b",
+  "name" : "TC_04-Login",
+  "time" : {
+    "start" : 1628204054520,
+    "stop" : 1628204057881,
+    "duration" : 3361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1497e99799e6de",
+  "name" : "TC_07-NewDataEntry",
+  "time" : {
+    "start" : 1628204086206,
+    "stop" : 1628204089008,
+    "duration" : 2802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "529229d9228804e",
+  "name" : "TC_10-DataDelete",
+  "time" : {
+    "start" : 1628204097427,
+    "stop" : 1628204101701,
+    "duration" : 4274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc753004eec30373",
+  "name" : "TC_12-Logout",
+  "time" : {
+    "start" : 1628204109450,
+    "stop" : 1628204112627,
+    "duration" : 3177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b326d4907a31e799",
+  "name" : "[2] WikiTest-second, My second page.",
+  "time" : {
+    "start" : 1628204080660,
+    "stop" : 1628204083438,
+    "duration" : 2778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30883ae684e4961f",
+  "name" : "TC_02-Reg",
+  "time" : {
+    "start" : 1628204047234,
+    "stop" : 1628204050884,
+    "duration" : 3650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a60a7a1b37571083",
+  "name" : "TC_01-Reg",
+  "time" : {
+    "start" : 1628204051017,
+    "stop" : 1628204052437,
+    "duration" : 1420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "224776fc4c1edded",
+  "name" : "TC_03-Login",
+  "time" : {
+    "start" : 1628204057887,
+    "stop" : 1628204058888,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "863a2a20ffa3b765",
+  "name" : "TC_09-DataModify",
+  "time" : {
+    "start" : 1628204091072,
+    "stop" : 1628204095409,
+    "duration" : 4337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31f9cd4fe0d77cb0",
+  "name" : "TC_11-SaveDataToFile",
+  "time" : {
+    "start" : 1628204103740,
+    "stop" : 1628204107551,
+    "duration" : 3811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

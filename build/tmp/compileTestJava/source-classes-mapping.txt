@@ -1,0 +1,32 @@
+com/greenfoxacademy/pages/CommunityPage.java
+ com.greenfoxacademy.pages.CommunityPage
+com/greenfoxacademy/TC11_SaveDataTest.java
+ com.greenfoxacademy.TC11_SaveDataTest
+com/greenfoxacademy/TC03_04_LoginTest.java
+ com.greenfoxacademy.TC03_04_LoginTest
+com/greenfoxacademy/TC07_08_DataEntryTest.java
+ com.greenfoxacademy.TC07_08_DataEntryTest
+com/greenfoxacademy/pages/LastChangesPage.java
+ com.greenfoxacademy.pages.LastChangesPage
+com/greenfoxacademy/TC01_02_RegisterPageTest.java
+ com.greenfoxacademy.TC01_02_RegisterPageTest
+com/greenfoxacademy/pages/BasePage.java
+ com.greenfoxacademy.pages.BasePage
+com/greenfoxacademy/BaseTest.java
+ com.greenfoxacademy.BaseTest
+com/greenfoxacademy/TC05_DataListTest.java
+ com.greenfoxacademy.TC05_DataListTest
+com/greenfoxacademy/TC12_LogoutTest.java
+ com.greenfoxacademy.TC12_LogoutTest
+com/greenfoxacademy/TC09_DataModifyTest.java
+ com.greenfoxacademy.TC09_DataModifyTest
+com/greenfoxacademy/TC10_DataDeleteTest.java
+ com.greenfoxacademy.TC10_DataDeleteTest
+com/greenfoxacademy/TC06_PaginationTest.java
+ com.greenfoxacademy.TC06_PaginationTest
+com/greenfoxacademy/pages/EditPage.java
+ com.greenfoxacademy.pages.EditPage
+com/greenfoxacademy/pages/RegisterPage.java
+ com.greenfoxacademy.pages.RegisterPage
+com/greenfoxacademy/pages/HomePage.java
+ com.greenfoxacademy.pages.HomePage

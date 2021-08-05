@@ -1,0 +1,205 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Registration",
+    "children" : [ {
+      "name" : "TC_02-Reg",
+      "uid" : "30883ae684e4961f",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204047234,
+        "stop" : 1628204050884,
+        "duration" : 3650
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC_01-Reg",
+      "uid" : "a60a7a1b37571083",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204051017,
+        "stop" : 1628204052437,
+        "duration" : 1420
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0effe69527f658c5af968b745a6e0ad"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "TC_04-Login",
+      "uid" : "384c16c2c77b253b",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204054520,
+        "stop" : 1628204057881,
+        "duration" : 3361
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC_03-Login",
+      "uid" : "224776fc4c1edded",
+      "parentUid" : "14102d61eef2af473312d4f91dec531b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204057887,
+        "stop" : 1628204058888,
+        "duration" : 1001
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  }, {
+    "name" : "Data Listing",
+    "children" : [ {
+      "name" : "TC_05-List",
+      "uid" : "b9477dd9c92d00e1",
+      "parentUid" : "4857e30fbe7a751e919e168b06899f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204060902,
+        "stop" : 1628204063087,
+        "duration" : 2185
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC_06-Pagination",
+      "uid" : "ae7656adb723ba62",
+      "parentUid" : "4857e30fbe7a751e919e168b06899f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204253743,
+        "stop" : 1628204257672,
+        "duration" : 3929
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4857e30fbe7a751e919e168b06899f98"
+  }, {
+    "name" : "Data Entry",
+    "children" : [ {
+      "name" : "[1] WikiTest-first, My first page.",
+      "uid" : "eeaa09adb78e7d37",
+      "parentUid" : "387f1c3d28a693a2edb96f6eaabde1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204076324,
+        "stop" : 1628204080652,
+        "duration" : 4328
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] WikiTest-second, My second page.",
+      "uid" : "b326d4907a31e799",
+      "parentUid" : "387f1c3d28a693a2edb96f6eaabde1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204080660,
+        "stop" : 1628204083438,
+        "duration" : 2778
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] WikiTest-third, My third page.",
+      "uid" : "8000fd9b560645b",
+      "parentUid" : "387f1c3d28a693a2edb96f6eaabde1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204083446,
+        "stop" : 1628204086199,
+        "duration" : 2753
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC_07-NewDataEntry",
+      "uid" : "eb1497e99799e6de",
+      "parentUid" : "387f1c3d28a693a2edb96f6eaabde1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204086206,
+        "stop" : 1628204089008,
+        "duration" : 2802
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "387f1c3d28a693a2edb96f6eaabde1dd"
+  }, {
+    "name" : "Data Modify",
+    "children" : [ {
+      "name" : "TC_09-DataModify",
+      "uid" : "863a2a20ffa3b765",
+      "parentUid" : "ce0b6f5f84eef908c45aebccf98197a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204091072,
+        "stop" : 1628204095409,
+        "duration" : 4337
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ce0b6f5f84eef908c45aebccf98197a1"
+  }, {
+    "name" : "Data Delete",
+    "children" : [ {
+      "name" : "TC_10-DataDelete",
+      "uid" : "529229d9228804e",
+      "parentUid" : "2ce3e2e147dc3c598c0370459ee8fce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204097427,
+        "stop" : 1628204101701,
+        "duration" : 4274
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2ce3e2e147dc3c598c0370459ee8fce9"
+  }, {
+    "name" : "Data Save",
+    "children" : [ {
+      "name" : "TC_11-SaveDataToFile",
+      "uid" : "31f9cd4fe0d77cb0",
+      "parentUid" : "4ec41fc7a1a292250d1a2bd440bbe6c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204103740,
+        "stop" : 1628204107551,
+        "duration" : 3811
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4ec41fc7a1a292250d1a2bd440bbe6c4"
+  }, {
+    "name" : "Logout",
+    "children" : [ {
+      "name" : "TC_12-Logout",
+      "uid" : "dc753004eec30373",
+      "parentUid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628204109450,
+        "stop" : 1628204112627,
+        "duration" : 3177
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9"
+  } ]
+}

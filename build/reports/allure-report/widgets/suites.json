@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "e71547a95b7b65934083b6f09f6306b1",
+    "name" : "com.greenfoxacademy.TC07_08_DataEntryTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "f0f8a02925841215df867c43e7eb51e1",
+    "name" : "com.greenfoxacademy.TC01_02_RegisterPageTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "03c76d0d5bc148d59d5f8a607a5e471e",
+    "name" : "com.greenfoxacademy.TC03_04_LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0efca09df6db08321208803ec658b283",
+    "name" : "com.greenfoxacademy.TC05_DataListTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3cd33ffcc7038af8285b12e38e84f96c",
+    "name" : "com.greenfoxacademy.TC09_DataModifyTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "55079a82ca207d3894c8dbfba694ca79",
+    "name" : "com.greenfoxacademy.TC10_DataDeleteTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "91aa89caeb8d43d8b811bb9fbda2846f",
+    "name" : "com.greenfoxacademy.TC11_SaveDataTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d2e79b0e726e97a0d539e7ba73fd5e6c",
+    "name" : "com.greenfoxacademy.TC12_LogoutTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "eccefafb03650f87f0bf1061b7913c7b",
+    "name" : "com.greenfoxacademy.TC06_PaginationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

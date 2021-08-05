@@ -1,0 +1,60 @@
+{
+  "uid" : "529229d9228804e",
+  "name" : "TC_10-DataDelete",
+  "fullName" : "com.greenfoxacademy.TC10_DataDeleteTest.shouldModifyWikiPageContent",
+  "historyId" : "6d9a53e54dbcb4059584c10d045e8e59",
+  "time" : {
+    "start" : 1628204097427,
+    "stop" : 1628204101701,
+    "duration" : 4274
+  },
+  "description" : "Delete the previously modified Wiki Page content",
+  "descriptionHtml" : "<p>Delete the previously modified Wiki Page content</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data Delete"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EK93BGS"
+  }, {
+    "name" : "thread",
+    "value" : "16040@DESKTOP-EK93BGS.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.greenfoxacademy.TC10_DataDeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.greenfoxacademy.TC10_DataDeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldModifyWikiPageContent"
+  }, {
+    "name" : "suite",
+    "value" : "com.greenfoxacademy.TC10_DataDeleteTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "529229d9228804e.json",
+  "parameterValues" : [ ]
+}

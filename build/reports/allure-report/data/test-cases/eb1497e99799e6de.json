@@ -1,0 +1,60 @@
+{
+  "uid" : "eb1497e99799e6de",
+  "name" : "TC_07-NewDataEntry",
+  "fullName" : "com.greenfoxacademy.TC07_08_DataEntryTest.shouldCreateNewWikiPage",
+  "historyId" : "2294359e97929ed35353124c4796abba",
+  "time" : {
+    "start" : 1628204086206,
+    "stop" : 1628204089008,
+    "duration" : 2802
+  },
+  "description" : "Create a new Wiki Page with some content after login",
+  "descriptionHtml" : "<p>Create a new Wiki Page with some content after login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data Entry"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EK93BGS"
+  }, {
+    "name" : "thread",
+    "value" : "16040@DESKTOP-EK93BGS.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.greenfoxacademy.TC07_08_DataEntryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.greenfoxacademy.TC07_08_DataEntryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCreateNewWikiPage"
+  }, {
+    "name" : "suite",
+    "value" : "com.greenfoxacademy.TC07_08_DataEntryTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb1497e99799e6de.json",
+  "parameterValues" : [ ]
+}

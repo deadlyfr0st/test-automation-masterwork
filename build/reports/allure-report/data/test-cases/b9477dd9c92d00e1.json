@@ -1,0 +1,60 @@
+{
+  "uid" : "b9477dd9c92d00e1",
+  "name" : "TC_05-List",
+  "fullName" : "com.greenfoxacademy.TC05_DataListTest.byTheNumbersListElementsShouldEqualWithManuallyCreatedList",
+  "historyId" : "a85a210bf008373094162e2d47cebced",
+  "time" : {
+    "start" : 1628204060902,
+    "stop" : 1628204063087,
+    "duration" : 2185
+  },
+  "description" : "Compare By the numbers list elements with the created list",
+  "descriptionHtml" : "<p>Compare By the numbers list elements with the created list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data Listing"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EK93BGS"
+  }, {
+    "name" : "thread",
+    "value" : "16040@DESKTOP-EK93BGS.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.greenfoxacademy.TC05_DataListTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.greenfoxacademy.TC05_DataListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "byTheNumbersListElementsShouldEqualWithManuallyCreatedList"
+  }, {
+    "name" : "suite",
+    "value" : "com.greenfoxacademy.TC05_DataListTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9477dd9c92d00e1.json",
+  "parameterValues" : [ ]
+}
