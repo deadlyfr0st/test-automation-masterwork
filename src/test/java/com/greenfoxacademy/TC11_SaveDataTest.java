@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC8_DataDownloadTest extends BaseTest {
+public class TC11_SaveDataTest extends BaseTest {
   HomePage homePage;
   CommunityPage communityPage;
 
