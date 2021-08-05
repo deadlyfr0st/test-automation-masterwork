@@ -25,7 +25,7 @@ public class TC12_LogoutTest extends BaseTest {
   @Description("Successful logout after login with the previously created user")
   public void shouldSuccessfullyLogoutAfterLogin() {
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser0");
+    homePage.getLoginUsernameField().sendKeys("TestUser00");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Community Members HomePage");

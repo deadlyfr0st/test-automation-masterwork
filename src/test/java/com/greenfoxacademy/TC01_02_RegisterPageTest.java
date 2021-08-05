@@ -29,12 +29,13 @@ public class TC01_02_RegisterPageTest extends BaseTest {
   public void registrationShouldFailWithoutCheckPrivacyCheckbox() {
     homePage.getLoginDropDown().click();
     homePage.getRegisterLink().click();
-    registerPage.getUsernameField().sendKeys("TestUser0");
+    registerPage.getUsernameField().sendKeys("TiborTest");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");
     registerPage.getRegisterButton().click();
     assertThat(registerPage.getFailMessage().getText()).isEqualTo("This field is required");
+    homePage.open();
   }
 
   @Test
@@ -47,7 +48,7 @@ public class TC01_02_RegisterPageTest extends BaseTest {
     registerPage.getPrivacyLink().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Privacy Policy");
     driver.navigate().back();
-    registerPage.getUsernameField().sendKeys("TestUser0");
+    registerPage.getUsernameField().sendKeys("TiborTest");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");

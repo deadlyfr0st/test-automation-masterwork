@@ -21,7 +21,7 @@ public class TC06_PaginationTest extends BaseTest {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser0");
+    homePage.getLoginUsernameField().sendKeys("TiborTest");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -32,8 +32,9 @@ public class TC06_PaginationTest extends BaseTest {
   @Description("List the last changes and navigate to the next page")
   public void shouldNavigateToNextPage() {
     lastChangesPage.getSystemModuleWikiDropdown().click();
+    wait.until(ExpectedConditions.elementToBeClickable(lastChangesPage.getLastChangesLink()));
     lastChangesPage.getLastChangesLink().click();
-    wait.until(ExpectedConditions.visibilityOf(lastChangesPage.getSecondPageLink()));
+    wait.until(ExpectedConditions.elementToBeClickable(lastChangesPage.getSecondPageLink()));
     lastChangesPage.getSecondPageLink().click();
     assertThat(lastChangesPage.getSecondPageLinkForAssert().getText()).isEqualTo("(current)");
   }
