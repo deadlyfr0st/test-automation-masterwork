@@ -1,5 +1,10 @@
 package com.greenfoxacademy.pages;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.By;
@@ -64,7 +69,27 @@ public class CommunityPage extends BasePage {
     return liItems;
   }
 
+  public static String targetPathString() {
+    String fullPath = "src/test/resources/com/greenfoxacademy";
+    String[] fullPathArray = fullPath.split("/");
+    StringBuilder stringBuilder = new StringBuilder();
+    for (String pathPiece : fullPathArray) {
+      stringBuilder.append(pathPiece)
+          .append(File.separator);
+    }
+    return stringBuilder.toString();
+  }
+
+  public void saveListElementsToTxt() {
+    Path targetPath = Paths.get(targetPathString() + "By-The-Numbers.txt");
+    try {
+      Files.write(targetPath, byTheNumbersRows());
+    } catch (IOException e) {
+      System.err.println("Writing to file failed! File name: By-The-Numbers.txt");
+    }
+  }
+
   public void open() {
-    driver.get(baseURL + "tiki-index.php?page=HomePage");
+    driver.get(baseURL);
   }
 }
