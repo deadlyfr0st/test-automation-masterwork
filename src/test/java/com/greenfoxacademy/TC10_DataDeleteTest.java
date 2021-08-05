@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC7_DataDeleteTest extends BaseTest {
+public class TC10_DataDeleteTest extends BaseTest {
   HomePage homePage;
   EditPage editPage;
 
@@ -21,7 +21,7 @@ public class TC7_DataDeleteTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser1");
+    homePage.getLoginUsernameField().sendKeys("TestUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -31,7 +31,7 @@ public class TC7_DataDeleteTest extends BaseTest {
   @Feature("Data Delete")
   @Description("Delete the previously modified Wiki Page content")
   public void shouldModifyWikiPageContent() {
-    String wikiPageName = "User1-page";
+    String wikiPageName = "TestUser0-page";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();
     editPage.getEditField().clear();
@@ -41,6 +41,7 @@ public class TC7_DataDeleteTest extends BaseTest {
     String expectedBackgroundColor = "rgba(212, 237, 218, 1)";
     assertThat(actualBackgroundColor).isEqualTo(expectedBackgroundColor);
     assertThat(editPage.getSuccessMessageText().getText()).contains("To review the changes");
+    assertThat(editPage.getWikiPageContentText().getText()).isEqualTo("");
     homePage.logout();
   }
 }
