@@ -13,7 +13,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC5_DataEntryTest extends BaseTest {
+public class TC07_08_DataEntryTest extends BaseTest {
   HomePage homePage;
   EditPage editPage;
 
@@ -23,7 +23,7 @@ public class TC5_DataEntryTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser1");
+    homePage.getLoginUsernameField().sendKeys("TestUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -33,7 +33,7 @@ public class TC5_DataEntryTest extends BaseTest {
   @Feature("Data Entry")
   @Description("Create a new Wiki Page with some content after login")
   public void shouldCreateNewWikiPage() {
-    String wikiPageName = "User1-page";
+    String wikiPageName = "TestUser0-page";
     String content = "This is my first page on this site.";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();
