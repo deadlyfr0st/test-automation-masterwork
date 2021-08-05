@@ -10,7 +10,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC2_LoginTest extends BaseTest {
+public class TC03_04_LoginTest extends BaseTest {
   HomePage homePage;
 
   @BeforeEach
@@ -20,7 +20,7 @@ public class TC2_LoginTest extends BaseTest {
   }
 
   @Test
-  @DisplayName("Unsuccessful login")
+  @DisplayName("TC_03-Login")
   @Feature("Login")
   @Description("Unsuccessful login with invalid username")
   public void loginShouldFailWithInvalidUsername() {
@@ -32,14 +32,15 @@ public class TC2_LoginTest extends BaseTest {
   }
 
   @Test
-  @DisplayName("Successful login")
+  @DisplayName("TC_04-Login")
   @Feature("Login")
   @Description("Successful login with the previously created user")
-  public void loginWithTheCreatedUserInRegisterPageTest() {
+  public void shouldLoginWithTheCreatedUserInRegisterPageTest() {
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser1");
+    homePage.getLoginUsernameField().sendKeys("TestUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Community Members HomePage");
+    homePage.logout();
   }
 }
