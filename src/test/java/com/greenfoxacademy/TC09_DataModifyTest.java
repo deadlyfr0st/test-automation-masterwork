@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC6_DataModifyTest extends BaseTest {
+public class TC09_DataModifyTest extends BaseTest {
   HomePage homePage;
   EditPage editPage;
 
@@ -31,7 +31,7 @@ public class TC6_DataModifyTest extends BaseTest {
   @Feature("Data Modify")
   @Description("Modify the previously created Wiki Page with specified content")
   public void shouldModifyWikiPageContent() {
-    String wikiPageName = "User1-page";
+    String wikiPageName = "TestUser0-page";
     String content = "I modified the content.";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();
