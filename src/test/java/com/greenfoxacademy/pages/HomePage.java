@@ -3,6 +3,7 @@ package com.greenfoxacademy.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage {
 
@@ -28,6 +29,18 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"rbox_1\"]/div[2]")
   WebElement loginErrorMessage;
 
+  @FindBy(id = "qe-1")
+  WebElement quickEditField;
+
+  @FindBy(name = "qedit")
+  WebElement quickEditCreateButton;
+
+  @FindBy(xpath = "//*[@id=\"mod-login_boxtop2\"]/div/button")
+  WebElement logoutDropDown;
+
+  @FindBy(linkText = "Log out")
+  WebElement logoutLink;
+
   public WebElement getLoginDropDown() {
     return loginDropDown;
   }
@@ -52,7 +65,29 @@ public class HomePage extends BasePage {
     return loginErrorMessage;
   }
 
+  public WebElement getQuickEditField() {
+    return quickEditField;
+  }
+
+  public WebElement getQuickEditCreateButton() {
+    return quickEditCreateButton;
+  }
+
+  public WebElement getLogoutDropDown() {
+    return logoutDropDown;
+  }
+
+  public WebElement getLogoutLink() {
+    return logoutLink;
+  }
+
   public void open() {
     driver.get(baseURL);
+  }
+
+  public void logout() {
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    homePage.getLogoutDropDown().click();
+    homePage.getLogoutLink().click();
   }
 }
