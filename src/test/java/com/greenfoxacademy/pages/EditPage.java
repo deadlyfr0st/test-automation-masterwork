@@ -19,6 +19,12 @@ public class EditPage extends BasePage {
   @FindBy(className = "alert-success")
   WebElement successMessage;
 
+  @FindBy(className = "linktodiff")
+  WebElement successMessageText;
+
+  @FindBy(id = "page-data")
+  WebElement wikiPageContentText;
+
   public WebElement getEditField() {
     return editField;
   }
@@ -29,5 +35,13 @@ public class EditPage extends BasePage {
 
   public WebElement getSuccessMessage() {
     return successMessage;
+  }
+
+  public WebElement getSuccessMessageText() {
+    return successMessageText;
+  }
+
+  public WebElement getWikiPageContentText() {
+    return wikiPageContentText;
   }
 }
