@@ -12,7 +12,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC3_CommunityPageTest extends BaseTest {
+public class TC05_DataListTest extends BaseTest {
   CommunityPage communityPage;
 
   @BeforeEach
