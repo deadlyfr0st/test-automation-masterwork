@@ -21,7 +21,7 @@ public class TC09_DataModifyTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TiborTest");
+    homePage.getLoginUsernameField().sendKeys("WikiTest");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -31,7 +31,7 @@ public class TC09_DataModifyTest extends BaseTest {
   @Feature("Data Modify")
   @Description("Modify the previously created Wiki Page with specified content")
   public void shouldModifyWikiPageContent() {
-    String wikiPageName = "TiborTest-page";
+    String wikiPageName = "WikiTest-page";
     String content = "I modified the content.";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();

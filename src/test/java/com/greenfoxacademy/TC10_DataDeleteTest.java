@@ -21,7 +21,7 @@ public class TC10_DataDeleteTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TiborTest");
+    homePage.getLoginUsernameField().sendKeys("WikiTest");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -31,7 +31,7 @@ public class TC10_DataDeleteTest extends BaseTest {
   @Feature("Data Delete")
   @Description("Delete the previously modified Wiki Page content")
   public void shouldModifyWikiPageContent() {
-    String wikiPageName = "TiborTest-page";
+    String wikiPageName = "WikiTest-page";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();
     editPage.getEditField().clear();

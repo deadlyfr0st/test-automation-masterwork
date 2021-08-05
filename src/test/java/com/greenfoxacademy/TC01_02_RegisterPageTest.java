@@ -26,15 +26,16 @@ public class TC01_02_RegisterPageTest extends BaseTest {
   @DisplayName("TC_01-Reg")
   @Feature("Registration")
   @Description("Unsuccessful registration due to non-acceptance of privacy policy")
-  public void registrationShouldFailWithoutCheckPrivacyCheckbox() {
+  public void registrationShouldFailWithMismatchedPassword() {
     homePage.getLoginDropDown().click();
     homePage.getRegisterLink().click();
-    registerPage.getUsernameField().sendKeys("TiborTest");
+    registerPage.getUsernameField().sendKeys("SomeData");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
-    registerPage.getNewPassword().sendKeys("Jelszo01");
-    registerPage.getConfirmPassword().sendKeys("Jelszo01");
+    registerPage.getNewPassword().sendKeys("Jelszo00");
+    registerPage.getConfirmPassword().sendKeys("Jelszo011");
+    registerPage.getPrivacyCheckbox().click();
     registerPage.getRegisterButton().click();
-    assertThat(registerPage.getFailMessage().getText()).isEqualTo("This field is required");
+    assertThat(registerPage.getFailMessage().getText()).isEqualTo("Passwords do not match");
     homePage.open();
   }
 
@@ -48,7 +49,7 @@ public class TC01_02_RegisterPageTest extends BaseTest {
     registerPage.getPrivacyLink().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Privacy Policy");
     driver.navigate().back();
-    registerPage.getUsernameField().sendKeys("TiborTest");
+    registerPage.getUsernameField().sendKeys("WikiTest");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");

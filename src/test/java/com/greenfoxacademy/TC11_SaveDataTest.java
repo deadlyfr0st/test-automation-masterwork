@@ -21,7 +21,7 @@ public class TC11_SaveDataTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TiborTest");
+    homePage.getLoginUsernameField().sendKeys("WikiTest");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
