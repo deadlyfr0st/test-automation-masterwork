@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class TC4_LastChangesPageTest extends BaseTest {
+public class TC06_PaginationTest extends BaseTest {
   LastChangesPage lastChangesPage;
 
   @BeforeEach
@@ -21,7 +21,7 @@ public class TC4_LastChangesPageTest extends BaseTest {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("TestUser1");
+    homePage.getLoginUsernameField().sendKeys("TestUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -29,7 +29,7 @@ public class TC4_LastChangesPageTest extends BaseTest {
   @Test
   @DisplayName("TC_06-Pagination")
   @Feature("Data Listing")
-  @Description("List last changes and navigate to next page")
+  @Description("List the last changes and navigate to the next page")
   public void shouldNavigateToNextPage() {
     lastChangesPage.getSystemModuleWikiDropdown().click();
     lastChangesPage.getLastChangesLink().click();
