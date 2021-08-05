@@ -31,7 +31,7 @@ public class RegisterPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"editItemForm1\"]/div[3]/div/input")
   WebElement registerButton;
 
-  @FindBy(className = "invalid-feedback")
+  @FindBy(id = "pass2-error")
   WebElement failMessage;
 
   @FindBy(tagName = "fieldset")
