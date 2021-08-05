@@ -1,0 +1,7 @@
+10+ years old
+40+ languages
+250+ code contributors (via CVS/SVN)
+1,500+ built-in features and preferences
+1,000+ wiki pages of documentation
+1,000,000+ downloads
+1,000,000+ lines of code, with a code commit every two hours (on average)
