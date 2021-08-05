@@ -11,7 +11,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-public class TC1_RegisterPageTest extends BaseTest {
+public class TC01_02_RegisterPageTest extends BaseTest {
   HomePage homePage;
   RegisterPage registerPage;
 
@@ -23,13 +23,13 @@ public class TC1_RegisterPageTest extends BaseTest {
   }
 
   @Test
-  @DisplayName("Unsuccessful registration")
+  @DisplayName("TC_01-Reg")
   @Feature("Registration")
   @Description("Unsuccessful registration due to non-acceptance of privacy policy")
   public void registrationShouldFailWithoutCheckPrivacyCheckbox() {
     homePage.getLoginDropDown().click();
     homePage.getRegisterLink().click();
-    registerPage.getUsernameField().sendKeys("TestUser1");
+    registerPage.getUsernameField().sendKeys("TestUser0");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");
@@ -38,7 +38,7 @@ public class TC1_RegisterPageTest extends BaseTest {
   }
 
   @Test
-  @DisplayName("Successful registration")
+  @DisplayName("TC_02-Reg")
   @Feature("Registration")
   @Description("Successfully registration after open and read the Privacy Policy")
   public void registrationShouldSuccess() {
@@ -47,7 +47,7 @@ public class TC1_RegisterPageTest extends BaseTest {
     registerPage.getPrivacyLink().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Privacy Policy");
     driver.navigate().back();
-    registerPage.getUsernameField().sendKeys("TestUser1");
+    registerPage.getUsernameField().sendKeys("TestUser0");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");
