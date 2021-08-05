@@ -1,0 +1,33 @@
+package com.greenfoxacademy.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class EditPage extends BasePage {
+
+  public EditPage(WebDriver driver) {
+    super(driver);
+  }
+
+  @FindBy(id = "editwiki")
+  WebElement editField;
+
+  @FindBy(name = "save")
+  WebElement saveButton;
+
+  @FindBy(className = "alert-success")
+  WebElement successMessage;
+
+  public WebElement getEditField() {
+    return editField;
+  }
+
+  public WebElement getSaveButton() {
+    return saveButton;
+  }
+
+  public WebElement getSuccessMessage() {
+    return successMessage;
+  }
+}
