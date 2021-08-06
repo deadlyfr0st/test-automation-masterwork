@@ -20,6 +20,6 @@
 
 ### Important information for test running and reporting
 
-Sometimes, IntelliJ IDEA will open different terminal.
+Sometimes, IntelliJ IDEA will open different terminal.\
 If the above given terminal commands are not working, try type "./" in front of them.
   - e.g., "./gradlew clean test"
