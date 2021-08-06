@@ -25,7 +25,7 @@ public class TC01_02_RegisterPageTest extends BaseTest {
   @Test
   @DisplayName("TC_01-Reg")
   @Feature("Registration")
-  @Description("Unsuccessful registration due to non-acceptance of privacy policy")
+  @Description("Unsuccessful registration due to mismatched password")
   public void registrationShouldFailWithMismatchedPassword() {
     homePage.getLoginDropDown().click();
     homePage.getRegisterLink().click();
@@ -49,7 +49,7 @@ public class TC01_02_RegisterPageTest extends BaseTest {
     registerPage.getPrivacyLink().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Privacy Policy");
     driver.navigate().back();
-    registerPage.getUsernameField().sendKeys("WikiTest");
+    registerPage.getUsernameField().sendKeys("FinalUser0");
     registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
     registerPage.getNewPassword().sendKeys("Jelszo01");
     registerPage.getConfirmPassword().sendKeys("Jelszo01");

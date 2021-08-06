@@ -37,7 +37,7 @@ public class TC03_04_LoginTest extends BaseTest {
   @Description("Successful login with the previously created user")
   public void shouldLoginWithTheCreatedUserInRegisterPageTest() {
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("WikiTest");
+    homePage.getLoginUsernameField().sendKeys("FinalUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Community Members HomePage");

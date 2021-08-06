@@ -21,7 +21,7 @@ public class TC06_PaginationTest extends BaseTest {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("WikiTest");
+    homePage.getLoginUsernameField().sendKeys("FinalUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }

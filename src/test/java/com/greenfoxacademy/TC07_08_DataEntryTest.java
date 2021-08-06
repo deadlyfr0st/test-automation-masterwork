@@ -23,7 +23,7 @@ public class TC07_08_DataEntryTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("WikiTest");
+    homePage.getLoginUsernameField().sendKeys("FinalUser0");
     homePage.getLoginPasswordField().sendKeys("Jelszo01");
     homePage.getLoginButton().click();
   }
@@ -33,7 +33,7 @@ public class TC07_08_DataEntryTest extends BaseTest {
   @Feature("Data Entry")
   @Description("Create a new Wiki Page with some content after login")
   public void shouldCreateNewWikiPage() {
-    String wikiPageName = "WikiTest-page";
+    String wikiPageName = "FinalUser0-page";
     String content = "This is my first page on this site.";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();
