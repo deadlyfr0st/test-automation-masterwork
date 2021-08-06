@@ -7,7 +7,7 @@
       "name" : "TC01_02_RegisterPageTest",
       "children" : [ {
         "name" : "registrationShouldSuccess",
-        "uid" : "30883ae684e4961f",
+        "uid" : "60f4c90a099cdd6e",
         "parentUid" : "fa3f97f17c40ff8fb82cd9395940e2af",
         "status" : "passed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "registrationShouldFailWithMismatchedPassword",
-        "uid" : "a60a7a1b37571083",
+        "uid" : "f5954fb6f23f6baa",
         "parentUid" : "fa3f97f17c40ff8fb82cd9395940e2af",
         "status" : "passed",
         "time" : {
@@ -35,7 +35,7 @@
       "name" : "TC03_04_LoginTest",
       "children" : [ {
         "name" : "shouldLoginWithTheCreatedUserInRegisterPageTest",
-        "uid" : "384c16c2c77b253b",
+        "uid" : "6e010500eb445e8a",
         "parentUid" : "40ed5e57d5a6a9a314691f1b02a2b6e5",
         "status" : "passed",
         "time" : {
@@ -47,7 +47,7 @@
         "parameters" : [ ]
       }, {
         "name" : "loginShouldFailWithInvalidUsername",
-        "uid" : "224776fc4c1edded",
+        "uid" : "ada79785883f7a7e",
         "parentUid" : "40ed5e57d5a6a9a314691f1b02a2b6e5",
         "status" : "passed",
         "time" : {
@@ -63,7 +63,7 @@
       "name" : "TC05_DataListTest",
       "children" : [ {
         "name" : "byTheNumbersListElementsShouldEqualWithManuallyCreatedList",
-        "uid" : "b9477dd9c92d00e1",
+        "uid" : "6d993b5473c5f5f8",
         "parentUid" : "c96e6d2b8d4f04b5314bd4d9d376b6e9",
         "status" : "passed",
         "time" : {
@@ -79,7 +79,7 @@
       "name" : "TC07_08_DataEntryTest",
       "children" : [ {
         "name" : "shouldCreateThreeNewWikiPage",
-        "uid" : "eeaa09adb78e7d37",
+        "uid" : "785117aef6777955",
         "parentUid" : "ec24dd937442a9b69cb87b2bbece9bef",
         "status" : "passed",
         "time" : {
@@ -91,7 +91,7 @@
         "parameters" : [ ]
       }, {
         "name" : "shouldCreateThreeNewWikiPage",
-        "uid" : "b326d4907a31e799",
+        "uid" : "ea0eb764433868f0",
         "parentUid" : "ec24dd937442a9b69cb87b2bbece9bef",
         "status" : "passed",
         "time" : {
@@ -103,7 +103,7 @@
         "parameters" : [ ]
       }, {
         "name" : "shouldCreateThreeNewWikiPage",
-        "uid" : "8000fd9b560645b",
+        "uid" : "c2d0015da72b30e9",
         "parentUid" : "ec24dd937442a9b69cb87b2bbece9bef",
         "status" : "passed",
         "time" : {
@@ -115,7 +115,7 @@
         "parameters" : [ ]
       }, {
         "name" : "shouldCreateNewWikiPage",
-        "uid" : "eb1497e99799e6de",
+        "uid" : "9978a13294ff6b9",
         "parentUid" : "ec24dd937442a9b69cb87b2bbece9bef",
         "status" : "passed",
         "time" : {
@@ -131,7 +131,7 @@
       "name" : "TC09_DataModifyTest",
       "children" : [ {
         "name" : "shouldModifyWikiPageContent",
-        "uid" : "863a2a20ffa3b765",
+        "uid" : "9589cb116ca6c16c",
         "parentUid" : "79b04323b615349b3f526962a954c4db",
         "status" : "passed",
         "time" : {
@@ -147,7 +147,7 @@
       "name" : "TC10_DataDeleteTest",
       "children" : [ {
         "name" : "shouldModifyWikiPageContent",
-        "uid" : "529229d9228804e",
+        "uid" : "3728205bb19305dc",
         "parentUid" : "e2fefdc3d01936bc18764e9a0cfe95c4",
         "status" : "passed",
         "time" : {
@@ -163,7 +163,7 @@
       "name" : "TC11_SaveDataTest",
       "children" : [ {
         "name" : "shouldSaveByTheNumbersListElementsToTxt",
-        "uid" : "31f9cd4fe0d77cb0",
+        "uid" : "de0e38edddff51be",
         "parentUid" : "c0bc8760f2fe1903b264ea0c4cfe0f6a",
         "status" : "passed",
         "time" : {
@@ -179,7 +179,7 @@
       "name" : "TC12_LogoutTest",
       "children" : [ {
         "name" : "shouldSuccessfullyLogoutAfterLogin",
-        "uid" : "dc753004eec30373",
+        "uid" : "6b5e16310ca2c1e4",
         "parentUid" : "4da9c7105cf848703b19fc689396c166",
         "status" : "passed",
         "time" : {
@@ -195,7 +195,7 @@
       "name" : "TC06_PaginationTest",
       "children" : [ {
         "name" : "shouldNavigateToNextPage",
-        "uid" : "ae7656adb723ba62",
+        "uid" : "902096a83069e096",
         "parentUid" : "2b13de70b4458534df38ed2828662e27",
         "status" : "passed",
         "time" : {
