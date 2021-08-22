@@ -18,6 +18,11 @@ public class BaseTest {
   protected WebDriver driver;
   protected WebDriverWait wait;
   private Properties properties;
+  protected int endOfUserAndEmail = 220;
+  protected String userName = "LTtest" + endOfUserAndEmail;
+  protected String password = "Jelszo01";
+  protected String email = "tibortest00+" + endOfUserAndEmail + "@gmail.com";
+  protected String wikiPageName = userName + "-page";
 
   @BeforeAll
   void setupDriver() throws IOException {
