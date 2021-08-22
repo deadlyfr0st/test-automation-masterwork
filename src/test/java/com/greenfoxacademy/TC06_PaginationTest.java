@@ -34,6 +34,8 @@ public class TC06_PaginationTest extends BaseTest {
     lastChangesPage.getSystemModuleWikiDropdown().click();
     wait.until(ExpectedConditions.elementToBeClickable(lastChangesPage.getLastChangesLink()));
     lastChangesPage.getLastChangesLink().click();
+    wait.until(ExpectedConditions.elementToBeClickable(lastChangesPage.getShowAllChanges()));
+    lastChangesPage.getShowAllChanges().click();
     wait.until(ExpectedConditions.elementToBeClickable(lastChangesPage.getSecondPageLink()));
     lastChangesPage.getSecondPageLink().click();
     assertThat(lastChangesPage.getSecondPageLinkForAssert().getText()).isEqualTo("(current)");

@@ -16,6 +16,9 @@ public class LastChangesPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"menu_option32\"]/li[2]/a")
   WebElement lastChangesLink;
 
+  @FindBy(linkText = "All")
+  WebElement showAllChanges;
+
   @FindBy(xpath = "//*[@id=\"col1\"]/ul/li[3]/a")
   WebElement secondPageLink;
 
@@ -28,6 +31,10 @@ public class LastChangesPage extends BasePage {
 
   public WebElement getLastChangesLink() {
     return lastChangesLink;
+  }
+
+  public WebElement getShowAllChanges() {
+    return showAllChanges;
   }
 
   public WebElement getSecondPageLink() {
