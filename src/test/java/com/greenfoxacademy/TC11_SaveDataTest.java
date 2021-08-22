@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.CommunityPage;
 import com.greenfoxacademy.pages.HomePage;
@@ -21,8 +21,8 @@ public class TC11_SaveDataTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("FinalUser0");
-    homePage.getLoginPasswordField().sendKeys("Jelszo01");
+    homePage.getLoginUsernameField().sendKeys(userName);
+    homePage.getLoginPasswordField().sendKeys(password);
     homePage.getLoginButton().click();
   }
 

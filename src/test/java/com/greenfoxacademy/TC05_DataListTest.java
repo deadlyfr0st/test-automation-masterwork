@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.CommunityPage;
 import io.qameta.allure.Description;

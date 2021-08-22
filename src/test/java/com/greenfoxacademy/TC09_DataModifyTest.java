@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.EditPage;
 import com.greenfoxacademy.pages.HomePage;
@@ -21,8 +21,8 @@ public class TC09_DataModifyTest extends BaseTest {
     homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("FinalUser0");
-    homePage.getLoginPasswordField().sendKeys("Jelszo01");
+    homePage.getLoginUsernameField().sendKeys(userName);
+    homePage.getLoginPasswordField().sendKeys(password);
     homePage.getLoginButton().click();
   }
 
@@ -31,7 +31,6 @@ public class TC09_DataModifyTest extends BaseTest {
   @Feature("Data Modify")
   @Description("Modify the previously created Wiki Page with specified content")
   public void shouldModifyWikiPageContent() {
-    String wikiPageName = "FinalUser0-page";
     String content = "I modified the content.";
     homePage.getQuickEditField().sendKeys(wikiPageName);
     homePage.getQuickEditCreateButton().click();

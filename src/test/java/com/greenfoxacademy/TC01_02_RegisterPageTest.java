@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.HomePage;
 import com.greenfoxacademy.pages.RegisterPage;
@@ -30,9 +30,9 @@ public class TC01_02_RegisterPageTest extends BaseTest {
     homePage.getLoginDropDown().click();
     homePage.getRegisterLink().click();
     registerPage.getUsernameField().sendKeys("SomeData");
-    registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
-    registerPage.getNewPassword().sendKeys("Jelszo00");
-    registerPage.getConfirmPassword().sendKeys("Jelszo011");
+    registerPage.getEmailField().sendKeys(email);
+    registerPage.getNewPassword().sendKeys(password);
+    registerPage.getConfirmPassword().sendKeys(password + "a");
     registerPage.getPrivacyCheckbox().click();
     registerPage.getRegisterButton().click();
     assertThat(registerPage.getFailMessage().getText()).isEqualTo("Passwords do not match");
@@ -49,10 +49,10 @@ public class TC01_02_RegisterPageTest extends BaseTest {
     registerPage.getPrivacyLink().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Privacy Policy");
     driver.navigate().back();
-    registerPage.getUsernameField().sendKeys("FinalUser0");
-    registerPage.getEmailField().sendKeys("tibortest00+reg@gmail.com");
-    registerPage.getNewPassword().sendKeys("Jelszo01");
-    registerPage.getConfirmPassword().sendKeys("Jelszo01");
+    registerPage.getUsernameField().sendKeys(userName);
+    registerPage.getEmailField().sendKeys(email);
+    registerPage.getNewPassword().sendKeys(password);
+    registerPage.getConfirmPassword().sendKeys(password);
     registerPage.getPrivacyCheckbox().click();
     registerPage.getRegisterButton().click();
     assertThat(registerPage.getSuccessMessage().getText())

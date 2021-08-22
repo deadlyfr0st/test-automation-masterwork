@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.HomePage;
 import io.qameta.allure.Description;
@@ -37,8 +37,8 @@ public class TC03_04_LoginTest extends BaseTest {
   @Description("Successful login with the previously created user")
   public void shouldLoginWithTheCreatedUserInRegisterPageTest() {
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("FinalUser0");
-    homePage.getLoginPasswordField().sendKeys("Jelszo01");
+    homePage.getLoginUsernameField().sendKeys(userName);
+    homePage.getLoginPasswordField().sendKeys(password);
     homePage.getLoginButton().click();
     assertThat(driver.getTitle()).isEqualTo("Community Wiki | Community Members HomePage");
     homePage.logout();

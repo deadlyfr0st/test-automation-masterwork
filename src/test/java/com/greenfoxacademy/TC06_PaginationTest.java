@@ -1,6 +1,6 @@
 package com.greenfoxacademy;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import com.greenfoxacademy.pages.HomePage;
 import com.greenfoxacademy.pages.LastChangesPage;
@@ -14,15 +14,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class TC06_PaginationTest extends BaseTest {
   LastChangesPage lastChangesPage;
+  HomePage homePage;
 
   @BeforeEach
   public void setup() {
     lastChangesPage = PageFactory.initElements(driver, LastChangesPage.class);
-    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    homePage = PageFactory.initElements(driver, HomePage.class);
     homePage.open();
     homePage.getLoginDropDown().click();
-    homePage.getLoginUsernameField().sendKeys("FinalUser0");
-    homePage.getLoginPasswordField().sendKeys("Jelszo01");
+    homePage.getLoginUsernameField().sendKeys(userName);
+    homePage.getLoginPasswordField().sendKeys(password);
     homePage.getLoginButton().click();
   }
 
