@@ -1,14 +1,18 @@
-#Test automation masterwork
-Testing the Community Wiki page.\
+# Test automation masterwork
+Testing the Community Wiki page.
+
 The application can be accessed by clicking on the link below:
-[Community Wiki] (http://test-automation-wiki2.greenfox.academy)
+[Community Wiki](http://test-automation-wiki2.greenfox.academy)
+
+</br>
+</br>
 
 *Read description in other languages: [Hungarian](README.md), [English](README.en.md).*
 
 ---
 ## Manual test cases
 A description of the manual test cases can be found at the following link:\
-[Test documentation] (https://docs.google.com/spreadsheets/d/1qGWCf2IpK-5bKLUf3cfcBtrDLPi3BzlE4_qjTqdzZg0/edit?usp=sharing)
+[Test documentation](https://docs.google.com/spreadsheets/d/1qGWCf2IpK-5bKLUf3cfcBtrDLPi3BzlE4_qjTqdzZg0/edit?usp=sharing)
 
 ---
 ## Project information
