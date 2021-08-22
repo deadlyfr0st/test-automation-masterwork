@@ -1,3 +1,5 @@
+com/greenfoxacademy/BaseTest.java
+ com.greenfoxacademy.BaseTest
 com/greenfoxacademy/pages/CommunityPage.java
  com.greenfoxacademy.pages.CommunityPage
 com/greenfoxacademy/TC11_SaveDataTest.java
@@ -12,8 +14,6 @@ com/greenfoxacademy/TC01_02_RegisterPageTest.java
  com.greenfoxacademy.TC01_02_RegisterPageTest
 com/greenfoxacademy/pages/BasePage.java
  com.greenfoxacademy.pages.BasePage
-com/greenfoxacademy/BaseTest.java
- com.greenfoxacademy.BaseTest
 com/greenfoxacademy/TC05_DataListTest.java
  com.greenfoxacademy.TC05_DataListTest
 com/greenfoxacademy/TC12_LogoutTest.java

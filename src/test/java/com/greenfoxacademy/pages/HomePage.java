@@ -3,7 +3,6 @@ package com.greenfoxacademy.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage {
 
@@ -86,8 +85,7 @@ public class HomePage extends BasePage {
   }
 
   public void logout() {
-    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-    homePage.getLogoutDropDown().click();
-    homePage.getLogoutLink().click();
+    getLogoutDropDown().click();
+    getLogoutLink().click();
   }
 }
