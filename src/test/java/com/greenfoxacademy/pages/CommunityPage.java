@@ -18,46 +18,18 @@ public class CommunityPage extends BasePage {
     super(driver);
   }
 
-  @FindBy(linkText = "Home")
-  WebElement homeMenuLink;
-
   @FindBy(linkText = "About")
   WebElement aboutMenuLink;
 
-  @FindBy(linkText = "Section")
-  WebElement sectionsMenuLink;
-
   @FindBy(linkText = "Community")
   WebElement aboutMenuCommunityItemLink;
-
-  @FindBy(linkText = "Forums")
-  WebElement sectionsMenuForumsItemLink;
-
-  @FindBy(xpath = "//*[@id=\"page-data\"]/ul[1]/li")
-  WebElement byTheNumbersUl;
-
-  public WebElement getHomeMenuLink() {
-    return homeMenuLink;
-  }
 
   public WebElement getAboutMenuLink() {
     return aboutMenuLink;
   }
 
-  public WebElement getSectionsMenuLink() {
-    return sectionsMenuLink;
-  }
-
   public WebElement getAboutMenuCommunityItemLink() {
     return aboutMenuCommunityItemLink;
-  }
-
-  public WebElement getSectionsMenuForumsItemLink() {
-    return sectionsMenuForumsItemLink;
-  }
-
-  public WebElement getByTheNumbersUl() {
-    return byTheNumbersUl;
   }
 
   public List<String> byTheNumbersRows() {
