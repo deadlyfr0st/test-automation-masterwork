@@ -1,7 +1,11 @@
 # Web alkalmazás felület tesztelési vizsgaremek
-Közösségi Wiki oldal tesztelése.\
-Az alkalmazás az alábbi link-re kattintva érhető el:\
+Közösségi Wiki oldal tesztelése.
+
+Az alkalmazás az alábbi link-re kattintva érhető el:
 [Community Wiki](http://test-automation-wiki2.greenfox.academy)
+
+</br>
+</br>
 
 *Leírás olvasása más nyelveken: [Magyar](README.md), [Angol](README.en.md).*
 
